@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>camera_list</title>
+  </head>
+
+  <body>
+    {% load static %}
+    <table style="font-size: 10px;">
+      <!-- table header -->
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>model_name</th>
+          <th>manufacturer</th>
+          <th>retail_price</th>
+          <th>num_in_stock</th>
+          <th>description</th>
+          <th>release_date</th>
+          <th>image</th>
+        </tr>
+      </thead>
+      <!-- table data -->
+      <tbody>
+        {% for camera in cameras %}   
+        <tr>
+          <th>{{ camera.id.id }}</th>
+          <th>{{ camera.id.model_name }}</th>
+          <th>{{ camera.id.manufacturer }}</th>id
+          <th>{{ camera.id.retail_price }}</th>
+          <th>{{ camera.id.num_in_stock }}</th>
+          <th>{{ camera.id.description }}</th>
+          <th>{{ camera.release_date }}</th>
+          <th>{{ camera.id.image }}</th>
+        </tr> 
+        {% endfor %} 
+      </tbody>     
+    </table>
+  </body>
+</html>

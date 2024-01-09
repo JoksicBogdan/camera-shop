@@ -1,0 +1,30 @@
+.home-product-bar {
+    padding: 10px;
+    margin: 10px;
+}
+
+.home-product-bar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home-product-bar-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-product-bar-title {
+    font-size: 20px;
+    text-align: left;
+}
+
+.home-product-bar-more {
+    font-size: 10px;
+}
+
+.home-product-bar-more:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}

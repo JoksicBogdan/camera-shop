@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>card_list</title>
+  </head>
+
+  <body>
+    {% load static %}
+    <table style="font-size: 10px;">
+      <!-- table header -->
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>user_id</th>
+          <th>card_type</th>
+          <th>card_number</th>
+          <th>valid_date</th>
+          <th>cvv</th>
+        </tr>
+      </thead>
+      <!-- table data -->
+      <tbody>
+        {% for card in cards %}   
+        <tr>
+          <th>{{ card.id }}</th>
+          <th>{{ card.user_id.id }}</th>
+          <th>{{ card.card_type }}</th>
+          <th>{{ card.card_number }}</th>
+          <th>{{ card.valid_date }}</th>
+          <th>{{ card.cvv }}</th>
+        </tr> 
+        {% endfor %} 
+      </tbody>     
+    </table>
+  </body>
+</html>

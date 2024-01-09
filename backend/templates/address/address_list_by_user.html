@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>address_list_by_user</title>
+  </head>
+
+  <body>
+    {% load static %}
+    <table style="font-size: 10px;">
+      <!-- table header -->
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>user_id</th>
+          <th>address1</th>
+          <th>address2</th>
+          <th>city</th>
+          <th>province</th>
+          <th>country</th>
+          <th>zip_code</th>
+          <th>first_name</th>
+          <th>last_name</th>
+        </tr>
+      </thead>
+      <!-- table data -->
+      <tbody>
+        {% for address in addresses %}   
+        <tr>
+          <th>{{ address.id }}</th>
+          <th>{{ address.user_id.id }}</th>
+          <th>{{ address.address1 }}</th>
+          <th>{{ address.address2 }}</th>
+          <th>{{ address.city }}</th>
+          <th>{{ address.province }}</th>
+          <th>{{ address.country }}</th>
+          <th>{{ address.zip_code }}</th>
+          <th>{{ address.first_name }}</th>
+          <th>{{ address.last_name }}</th>
+        </tr> 
+        {% endfor %} 
+      </tbody>     
+    </table>
+  </body>
+</html>

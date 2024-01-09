@@ -1,0 +1,143 @@
+.home-content {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.cart-content {
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cart-title {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 20px; 
+    padding-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.cart-total {
+    text-align: right;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-top: 2px solid gainsboro;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cart-checkout-container {
+    text-align: right;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+
+.checkout-button {
+    font-size: 15px;
+    color: aliceblue;
+    height: 25px;
+    width: 120px;
+    background-color: rgb(230, 127, 23);
+    border: rgb(230, 127, 23);
+    cursor: pointer;
+}
+
+.checkout-container {
+    overflow: auto;
+}
+
+.checkout-form-main {
+    float: left;
+    background-color: white;
+    padding-bottom: 50px;
+    margin-left: 15%;
+    width: 55%;
+}
+
+.checkout-side-form-container {
+    display: flex; 
+    padding-left: 2px;
+    width: 15%;
+    margin-left: 2px;
+}
+
+.checkout-form-title {
+    text-align: center;
+    font-size: 35px;
+    padding-left: 20px; 
+    padding-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.product-detail-container {
+    background-color: white;
+    height: 80vh;
+    margin-bottom: 2px;
+    overflow: auto;
+    
+}
+
+.product-detail-image-container {
+    float: left;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.product-detail-image {
+    min-height: 200px;
+    max-height: 320px;
+    max-width: 300px;
+}
+
+.product-detail-info {
+    float: left;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 2%;
+    margin-right: 15%;
+
+}
+
+.product-detail-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.product-detail-price {
+    font-size: 25px;
+}
+
+.description-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product-detail-description {
+    font-size: 18px;
+    margin-bottom: 15px;
+    min-height: 150px;
+}
+
+.add-to-cart-qty {
+    max-width: 100px;
+    margin-right: 15px;
+    height: 32px;
+    font-size: 20px;
+}
+
+.add-to-cart-btn {
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 136, 255);
+    border:  rgb(0, 136, 255);
+}
+
+.add-to-cart-btn:hover {
+    cursor: pointer;
+}

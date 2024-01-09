@@ -1,0 +1,101 @@
+.row-container {
+    border-top: 2px solid gainsboro;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 120px;
+    max-height: 500px;
+}
+
+.row-title {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.row-info {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 300px;
+}
+
+
+#review-item-list {
+    overflow-y: scroll;
+    padding-left: 160px;
+}
+
+.checkout-change {
+    color:cornflowerblue; 
+}
+
+.checkout-change:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.checkout-side-form {
+    background-color: white;
+    width: 40vh;
+}
+
+.checkout-side-form-title {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.checkout-side-form-main {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid gainsboro;
+}
+
+#after-tax {
+    margin-top: 15px;
+}
+
+.checkout-final {
+    margin-bottom: 15px;
+}
+
+#checkout-total-price {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    font-weight: bold;
+    color: brown;
+}
+
+#checkout-button {
+    width: 26vh;
+    height: 28px;
+    font-size: 15px;
+    background-color: rgb(230, 127, 23);
+    border: rgb(230, 127, 23);
+    margin-top: 10px;
+    color: white;
+}
+
+#checkout-button:hover {
+    cursor: pointer;
+}
+
+.preorder-label {
+    text-align: left;
+    float: left;
+}
+
+.preorder-price {
+    text-align: right;
+}

@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>user_list</title>
+  </head>
+
+  <body>
+    {% load static %}
+    <table style="font-size: 10px;">
+      <!-- table header -->
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>username</th>
+          <th>first_name</th>
+          <th>last_name</th>
+        </tr>
+      </thead>
+      <!-- table data -->
+      <tbody>
+        {% for user in users %}   
+        <tr>
+          <th>{{ user.id }}</th>
+          <th>{{ user.username }}</th>
+          <th>{{ user.first_name }}</th>
+          <th>{{ user.last_name }}</th>
+        </tr> 
+        {% endfor %} 
+      </tbody>     
+    </table>
+  </body>
+</html>

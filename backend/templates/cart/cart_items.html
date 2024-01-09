@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>cart_items</title>
+  </head>
+
+  <body>
+    {% load static %}
+    <table style="font-size: 10px;">
+      <!-- table header -->
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>user_id</th>
+          <th>prod_id</th>
+          <th>model_name</th>
+          <th>retail_price</th>
+          <th>prod_num</th>
+          <th>image</th>
+        </tr>
+      </thead>
+      <!-- table data -->
+      <tbody>
+        {% for cart_item in cart_items %}  
+        <tr>
+          <th>{{ cart_item.id }}</th>
+          <th>{{ cart_item.user_id }}</th>
+          <th>{{ cart_item.prod_id }}</th>
+          <th>{{ cart_item.model_name }}</th>
+          <th>{{ cart_item.retail_price }}</th>
+          <th>{{ cart_item.prod_num }}</th>
+          <th>{{ cart_item.image }}</th>
+        </tr> 
+        {% endfor %} 
+      </tbody>     
+    </table>
+  </body>
+</html>

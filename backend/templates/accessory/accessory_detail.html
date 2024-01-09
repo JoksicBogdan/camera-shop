@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>accessory_detail</title>
+  </head>
+
+  <body>
+    <table style="font-size: 10px;">
+        <!-- table header -->
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>model_name</th>
+            <th>manufacturer</th>
+            <th>retail_price</th>
+            <th>num_in_stock</th>
+            <th>category</th>
+            <th>description</th>
+            <th>image</th>
+          </tr>
+        </thead>
+        <!-- table data -->
+        <tbody>
+          <tr>
+            <th>{{ accessory.id.id }}</th>
+            <th>{{ accessory.id.model_name }}</th>
+            <th>{{ accessory.id.manufacturer }}</th>
+            <th>{{ accessory.id.retail_price }}</th>
+            <th>{{ accessory.id.num_in_stock }}</th>
+            <th>{{ accessory.category }}</th>
+            <th>{{ accessory.id.description }}</th>
+            <th>{{ accessory.id.image }}</th>
+          </tr> 
+        </tbody>     
+      </table>
+  </body>
+</html>
